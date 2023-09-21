@@ -1,5 +1,5 @@
 # Minipre
-Introduction
+<p>Introduction
 Hi, everyone. Today my team wwil present
 
 This is information about the Australian FootBall League including information about playerId,displayName,height,weight,dob,position,
@@ -8,4 +8,4 @@ We want to study player statistics for the Australian Rules Football League (AFL
 Our aim is to filter information about the players to select the best players. 
 Important players performance that no one has noticed before. 
 With scoring competitions in the AFL as popular as any other sport, surely this is just waiting for Data Science to take over 
-First, we updated fiel data to jupyter and type code to have 4 different charts.First chart about Correlation between weight and height rating.
+First, we updated fiel data to jupyter and type code to have 4 different charts.First chart about Correlation between weight and height rating.</p>
