@@ -17,6 +17,23 @@ Chart 1:
 In this chart we can see, the largest number of points is concentrated in the lower left quadrant, representing players with higher height and greater weight,it ranges from over 170cm - 190cm and from 70kg - under 90kg.
 Next, a moderate number of points are concentrated in the middle of the chart representing players with heights from over 190cm - under 200cm and weight from over 90kg - under 100kg.
 A small number of points concentrated in the upper right quadrant represent players over 200cm tall and weighing over 110kg.</p>
+Chart 2:
+<br># Variables and player counts
+<br>categories = ['Southport', 'South Fremantle', 'GWS', 'Box Hill', 'Ireland']
+<br>player_counts = [4, 5, 3, 3, 3]
+<br>colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0']
+<br>explode = [0.1, 0, 0, 0, 0]
+<br>pie = plt.pie(player_counts, colors=colors, explode=explode,
+              autopct='%1.1f%%', shadow=True, startangle=90)
+<br>plt.title('Player Count Percentage')
+<br>legend_box = plt.legend(pie[0], categories, loc='upper right', bbox_to_anchor=(1.5, 0.5))
+<br>legend_box.set_title('Categories', prop={'weight': 'bold'})
+<br>plt.show() <br>
+<img src="chart 2.jpg" alt="Error display image" width="500" height="500">
+<p>Describe chart 2:
+  1 The pie chart consists of five slices, each representing a different football team. The size of each slice corresponds to the number of players on that team. By visually comparing the sizes of the slices, you can quickly discern the relative player counts for each team. 
+2.The South fremantle has the highest amount of qualified players while GWS, Box Hill, ireland share the lowest amount of player
+3.Balance Assessment: By comparing the sizes of the slices, you can quickly assess whether the qualified player distribution among the teams is balanced or imbalanced.
 </body>
 </html>
 
