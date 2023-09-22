@@ -57,7 +57,29 @@ Frampton, Billy is the tallest player at 200cm and he weighs 90kg. This is a pla
 Fogarty, Darcy and Himmelberg, Elliott have the same weight of 94 pounds, but Himmelberg , Elliott are taller than Fogarty , Darcy.
 Cook, Brayden has the lowest weight on the list at 76 pounds however he has a pretty good height at 189cm
 One special thing, Berry, Sam and Brown, Luke are the two shortest people on the list, all at 181cm.</p>
-  
+Chart 4: 
+<br>import pandas as pd
+<br>import matplotlib.pyplot as plt
+<br>url = 'https://raw.githubusercontent.com/Nganha25/Minipre/main/players.csv?fbclid=IwAR0gEQdKshg4OvKiAupcOLQ7KSZ4VgmDpX0cilb3OQNkq76DxcRRwHsDByM'
+<br>data = pd.read_csv(url)
+<br>data['dob'] = pd.to_datetime(data['dob'])
+<br>filtered_data = data[(data['dob'].dt.year >= 1998) & (data['dob'].dt.year <= 2003)].head(10)
+<br>fig, ax = plt.subplots(figsize=(10, 7))
+<br>filtered_data['dob'].dt.year.value_counts().sort_index().plot(kind='bar', ax=ax, color='green', label='Year of Birth')
+<br>plt.xlabel('Year of Birth')
+<br>plt.ylabel('Count')
+<br>plt.title('Year of Birth of First 10 Players(between 20-25 years old)')
+<br>plt.legend()
+<br>plt.show() <br>
+<img src="chart 4.jpg" alt="Error display image" width="500" height="500">
+<p>Describe chart 4:
+The resulting column chart displays the number of players for each year of birth from 1998 to 2003. 
+The x-axis represents the years of birth, and the y-axis represents the number of players. The chart will have a green color, a legend, and a title.
+Through the chart, we see that there are three players born in 2000 
+1998, 1999, 2002 all have 2 players born in these years
+There is only 1 player born in 2001</p>
+
+
 </body>
 </html>
 
