@@ -9,8 +9,8 @@ This is data about the Australian FootBall League including information about pl
 <h3>Chart 1: </h3>
 <br>dfscatter = df[['weight','height']]
 <br>plt.scatter(dfscatter['weight'], dfscatter['height'], color='pink', s=50, marker='*') 
-<br>plt.ylabel("weight")
-<br>plt.xlabel("height")
+<br>plt.ylabel("height")
+<br>plt.xlabel("weight")
 <br>plt.title("The dispersion in the correlation between weight and height of players ") 
 <br>plt.show(). <br>
 <img src="chart 1.jpg" alt="Error display image" width="500" height="500">
