@@ -6,7 +6,7 @@
 This is data about the Australian FootBall League including information about playerId,displayName,height,weight,dob,position,origin.And where we collected this? We collect them here on Kaggle.com.This web have many datasets for people to analysis with many topics. We want to study player statistics for the Australian Rules Football League (AFL), use different charts to determine who the main players are, predict performance performance and results. Our aim is to filter information about the players to select the best players. Important players performance that no one has noticed before. With scoring competitions in the AFL as popular as any other sport, surely this is just waiting for Data Science to take over.</p>
 <p>First, we updated fiel data to jupyter and type code to have 5 different charts.First chart about the dispersion in the correlation between weight and height of players.</p>
 <h2>2. Code and Chart</h2>
-Chart 1: 
+<h3>Chart 1: </h3>
 <br>dfscatter = df[['weight','height']]
 <br>plt.scatter(dfscatter['weight'], dfscatter['height'], color='pink', s=50, marker='*') 
 <br>plt.ylabel("weight")
@@ -18,7 +18,7 @@ Chart 1:
 In this chart we can see, the largest number of points is concentrated in the lower left quadrant, representing players with higher height and greater weight,it ranges from over 170cm - 190cm and from 70kg - under 90kg.
 Next, a moderate number of points are concentrated in the middle of the chart representing players with heights from over 190cm - under 200cm and weight from over 90kg - under 100kg.
 A small number of points concentrated in the upper right quadrant represent players over 200cm tall and weighing over 110kg.</p>
-Chart 2:
+<h3>Chart 2: </h3>
 <br>categories = ['Southport', 'South Fremantle', 'GWS', 'Box Hill', 'Ireland']
 <br>player_counts = [4, 5, 3, 3, 3]
 <br>colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0']
@@ -34,7 +34,7 @@ Chart 2:
   1 The pie chart consists of five slices, each representing a different football team. The size of each slice corresponds to the number of players on that team. By visually comparing the sizes of the slices, you can quickly discern the relative player counts for each team. 
 2.The South fremantle has the highest amount of qualified players while GWS, Box Hill, ireland share the lowest amount of player
 3.Balance Assessment: By comparing the sizes of the slices, you can quickly assess whether the qualified player distribution among the teams is balanced or imbalanced.</p>
-Chart 3: 
+<h3>Chart 3: </h3>
 <br>import pandas as pd
 <br>import matplotlib.pyplot as plt
 <br>url = 'https://raw.githubusercontent.com/Nganha25/Minipre/main/players.csv?fbclid=IwAR268ZuhWNV5WsMIPsfH4zBp5UKlZEzB2jRDernxEjBM4Dkpws5tQJem4Uk'
@@ -58,7 +58,7 @@ Frampton, Billy is the tallest player at 200cm and he weighs 90kg. This is a pla
 Fogarty, Darcy and Himmelberg, Elliott have the same weight of 94 pounds, but Himmelberg , Elliott are taller than Fogarty , Darcy.
 Cook, Brayden has the lowest weight on the list at 76 pounds however he has a pretty good height at 189cm
 One special thing, Berry, Sam and Brown, Luke are the two shortest people on the list, all at 181cm.</p>
-Chart 4: 
+<h3>Chart 4: </h3>
 <br>import pandas as pd
 <br>import matplotlib.pyplot as plt
 <br>url = 'https://raw.githubusercontent.com/Nganha25/Minipre/main/players.csv?fbclid=IwAR0gEQdKshg4OvKiAupcOLQ7KSZ4VgmDpX0cilb3OQNkq76DxcRRwHsDByM'
@@ -79,7 +79,7 @@ The x-axis represents the years of birth, and the y-axis represents the number o
 Through the chart, we see that there are three players born in 2000 
 1998, 1999, 2002 all have 2 players born in these years
 There is only 1 player born in 2001</p>
-Chart 5: 
+<h3>Chart 5: </h3>
 <br>import pandas as pd
 <br>import matplotlib.pyplot as plt
 <br>url = 'https://raw.githubusercontent.com/Nganha25/Minipre/main/players.csv?fbclid=IwAR268ZuhWNV5WsMIPsfH4zBp5UKlZEzB2jRDernxEjBM4Dkpws5tQJem4Uk'
