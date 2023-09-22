@@ -8,4 +8,15 @@ This is data about the Australian FootBall League including information about pl
 </html>
 
 First, we updated fiel data to jupyter and type code to have 4 different charts.First chart about Correlation between weight and height rating.
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv(r"C:\Users\HP\Desktop\Anaconda\players.csv")
+Chart 1:
 
+dfscatter = df[['weight','height']]
+plt.scatter(dfscatter['weight'], dfscatter['height'], color='pink', s=50, marker='*')
+
+plt.ylabel("weight")
+plt.xlabel("height")
+plt.title("The dispersion in the correlation between weight and height of players ")
+plt.show()
