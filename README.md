@@ -18,7 +18,6 @@ In this chart we can see, the largest number of points is concentrated in the lo
 Next, a moderate number of points are concentrated in the middle of the chart representing players with heights from over 190cm - under 200cm and weight from over 90kg - under 100kg.
 A small number of points concentrated in the upper right quadrant represent players over 200cm tall and weighing over 110kg.</p>
 Chart 2:
-<br># Variables and player counts
 <br>categories = ['Southport', 'South Fremantle', 'GWS', 'Box Hill', 'Ireland']
 <br>player_counts = [4, 5, 3, 3, 3]
 <br>colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0']
@@ -33,7 +32,32 @@ Chart 2:
 <p>Describe chart 2:
   1 The pie chart consists of five slices, each representing a different football team. The size of each slice corresponds to the number of players on that team. By visually comparing the sizes of the slices, you can quickly discern the relative player counts for each team. 
 2.The South fremantle has the highest amount of qualified players while GWS, Box Hill, ireland share the lowest amount of player
-3.Balance Assessment: By comparing the sizes of the slices, you can quickly assess whether the qualified player distribution among the teams is balanced or imbalanced.
+3.Balance Assessment: By comparing the sizes of the slices, you can quickly assess whether the qualified player distribution among the teams is balanced or imbalanced.</p>
+Chart 3: 
+<br>import pandas as pd
+<br>import matplotlib.pyplot as plt
+<br>url = 'https://raw.githubusercontent.com/Nganha25/Minipre/main/players.csv?fbclid=IwAR268ZuhWNV5WsMIPsfH4zBp5UKlZEzB2jRDernxEjBM4Dkpws5tQJem4Uk'
+<br>data = pd.read_csv(url)
+<br>filtered_data = data[(data['height'] > 185) & (data['weight'] > 80)].head(10)
+<br>fig, ax = plt.subplots(figsize=(20,10))
+<br>ax.bar(filtered_data['displayName'], filtered_data['height'], label='Height', color='blue', alpha=0.9)
+<br>ax.bar(filtered_data['displayName'], filtered_data['weight'], label='Weight', color='red', alpha=0.9)
+<br>plt.xlabel('Player')
+<br>plt.ylabel('Value')
+<br>plt.title('Weight and Height of First 20 Players (Height > 185cm, Weight > 80kg)')
+<br>plt.legend()
+<br>plt.show() <br>
+<img src="chart 3.jpg" alt="Error display image" width="500" height="500">
+<p>Describe chart 3:
+The resulting chart will have blue bars representing height and red bars representing weight. 
+The x-axis will show the names of the players, and the y-axis will show the values of height and weight. 
+The chart will have a legend and a title.Having player heights and weights on a column makes it easy to compare these values and see the correlation between players' heights and weights.
+From the chart, we see that all players meet the set index of being over 175 cm tall and weighing over 70 pounds. 
+Frampton, Billy is the tallest player at 200cm and he weighs 90kg. This is a player with a beautiful body
+Fogarty, Darcy and Himmelberg, Elliott have the same weight of 94 pounds, but Himmelberg , Elliott are taller than Fogarty , Darcy.
+Cook, Brayden has the lowest weight on the list at 76 pounds however he has a pretty good height at 189cm
+One special thing, Berry, Sam and Brown, Luke are the two shortest people on the list, all at 181cm.</p>
+  
 </body>
 </html>
 
