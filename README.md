@@ -47,7 +47,7 @@ Chart 3:
 <br>plt.title('Weight and Height of First 20 Players (Height > 185cm, Weight > 80kg)')
 <br>plt.legend()
 <br>plt.show() <br>
-<img src="chart 3.jpg" alt="Error display image" width="700" height="500">
+<img src="chart 3.jpg" alt="Error display image" width="800" height="500">
 <p>Describe chart 3:
 The resulting chart will have blue bars representing height and red bars representing weight. 
 The x-axis will show the names of the players, and the y-axis will show the values of height and weight. 
