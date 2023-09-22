@@ -89,7 +89,7 @@ Chart 5:
 <br>ax.pie(position_counts.values, labels=position_counts.index, <br>autopct='%1.1f%%')
 <br>plt.title('Position of First 10 Players (Pie Chart)')
 <br>plt.show() <br>
-<img src="chart 5.jpg" alt="Error display image" width="700" height="500">
+<img src="chart 5.jpg" alt="Error display image" width="600" height="500">
 <p>Describe chart 5:
 The resulting pie chart will contain sections corresponding to each player position, 
 and the percentage of each position is displayed on the chart. Each section will have a label for the corresponding location. The chart will have a title. 
