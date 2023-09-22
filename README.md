@@ -78,8 +78,25 @@ The x-axis represents the years of birth, and the y-axis represents the number o
 Through the chart, we see that there are three players born in 2000 
 1998, 1999, 2002 all have 2 players born in these years
 There is only 1 player born in 2001</p>
-
-
+Chart 5: 
+<br>import pandas as pd
+<br>import matplotlib.pyplot as plt
+<br>url = 'https://raw.githubusercontent.com/Nganha25/Minipre/main/players.csv?fbclid=IwAR268ZuhWNV5WsMIPsfH4zBp5UKlZEzB2jRDernxEjBM4Dkpws5tQJem4Uk'
+<br>data = pd.read_csv(url)
+<br>filtered_data = data.head(10)
+<br>position_counts = filtered_data['position'].value_counts()
+<br>fig, ax = plt.subplots(figsize=(8, 8))
+<br>ax.pie(position_counts.values, labels=position_counts.index, <br>autopct='%1.1f%%')
+<br>plt.title('Position of First 10 Players (Pie Chart)')
+<br>plt.show() <br>
+<img src="chart 5.jpg" alt="Error display image" width="700" height="500">
+<p>Describe chart 5:
+The resulting pie chart will contain sections corresponding to each player position, 
+and the percentage of each position is displayed on the chart. Each section will have a label for the corresponding location. The chart will have a title. 
+The position with the highest percentage is defender with 40%.
+Forward accounts for 30% in the chart above
+Less percent is Midfield, Forward position with 20%
+And the lowest is Defender, Midfield</p>
 </body>
 </html>
 
