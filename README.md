@@ -8,8 +8,8 @@ This is data about the Australian FootBall League including information about pl
 First, we updated fiel data to jupyter and type code to have 5 different charts.First chart about the dispersion in the correlation between weight and height of players.
 <br>Chart 1:</br>
 <br>dfscatter = df[['weight','height']]</br>
-plt.scatter(dfscatter['weight'], dfscatter['height'], color='pink', s=50, marker='*')
-plt.ylabel("weight")
+<br>plt.scatter(dfscatter['weight'], dfscatter['height'], color='pink', s=50, marker='*')</br>
+<br>plt.ylabel("weight")</br>
 plt.xlabel("height")
 plt.title("The dispersion in the correlation between weight and height of players ")
 plt.show().</br></p>
