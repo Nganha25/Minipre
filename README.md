@@ -13,7 +13,7 @@ This is data about the Australian FootBall League including information about pl
 <br>plt.xlabel("height")
 <br>plt.title("The dispersion in the correlation between weight and height of players ") 
 <br>plt.show(). <br>
-<img src="chart 1.jpg" alt="Error display image" width="500" height="500">
+<center><img src="chart 1.jpg" alt="Error display image" width="500" height="500"></center>
 <p>Describe chart 1:
 In this chart we can see, the largest number of points is concentrated in the lower left quadrant, representing players with higher height and greater weight,it ranges from over 170cm - 190cm and from 70kg - under 90kg.
 Next, a moderate number of points are concentrated in the middle of the chart representing players with heights from over 190cm - under 200cm and weight from over 90kg - under 100kg.
@@ -29,7 +29,7 @@ A small number of points concentrated in the upper right quadrant represent play
 <br>legend_box = plt.legend(pie[0], categories, loc='upper right', bbox_to_anchor=(1.5, 0.5))
 <br>legend_box.set_title('Categories', prop={'weight': 'bold'})
 <br>plt.show() <br>
-<img src="chart 2.jpg" alt="Error display image" width="700" height="500">
+<center><img src="chart 2.jpg" alt="Error display image" width="700" height="500"></center>
 <p>Describe chart 2:
   1 The pie chart consists of five slices, each representing a different football team. The size of each slice corresponds to the number of players on that team. By visually comparing the sizes of the slices, you can quickly discern the relative player counts for each team. 
 2.The South fremantle has the highest amount of qualified players while GWS, Box Hill, ireland share the lowest amount of player
@@ -48,7 +48,7 @@ A small number of points concentrated in the upper right quadrant represent play
 <br>plt.title('Weight and Height of First 20 Players (Height > 185cm, Weight > 80kg)')
 <br>plt.legend()
 <br>plt.show() <br>
-<img src="chart3.png" alt="Error display image" width="800" height="500">
+<center><img src="chart3.png" alt="Error display image" width="800" height="500"></center>
 <p>Describe chart 3:
 The resulting chart will have blue bars representing height and red bars representing weight. 
 The x-axis will show the names of the players, and the y-axis will show the values of height and weight. 
@@ -72,7 +72,7 @@ One special thing, Berry, Sam and Brown, Luke are the two shortest people on the
 <br>plt.title('Year of Birth of First 10 Players(between 20-25 years old)')
 <br>plt.legend()
 <br>plt.show() <br>
-<img src="chart 4.jpg" alt="Error display image" width="700" height="500">
+<center><img src="chart 4.jpg" alt="Error display image" width="700" height="500"></center>
 <p>Describe chart 4:
 The resulting column chart displays the number of players for each year of birth from 1998 to 2003. 
 The x-axis represents the years of birth, and the y-axis represents the number of players. The chart will have a green color, a legend, and a title.
@@ -90,7 +90,7 @@ There is only 1 player born in 2001</p>
 <br>ax.pie(position_counts.values, labels=position_counts.index, <br>autopct='%1.1f%%')
 <br>plt.title('Position of First 10 Players (Pie Chart)')
 <br>plt.show() <br>
-<img src="chart 5.jpg" alt="Error display image" width="600" height="500">
+<center><img src="chart 5.jpg" alt="Error display image" width="600" height="500"></center>
 <p>Describe chart 5:
 The resulting pie chart will contain sections corresponding to each player position, 
 and the percentage of each position is displayed on the chart. Each section will have a label for the corresponding location. The chart will have a title. 
