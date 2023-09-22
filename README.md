@@ -99,6 +99,8 @@ Forward accounts for 30% in the chart above
 Less percent is Midfield, Forward position with 20%
 And the lowest is Defender, Midfield</p>
 <h2>3. Summarize the presentation</h2>
+<p>Conclusion
+The 5 charts above have filtered out the best players in positions that match the conditions we offer. Thereby, it is possible to predict which player in which position is best. Furthermore, it will help the team make the correct choice of members to participate in the competition to get the best results. </p>
 </body>
 </html>
 
