@@ -13,6 +13,11 @@ Chart 1:
 <br>plt.title("The dispersion in the correlation between weight and height of players ") 
 <br>plt.show(). <br>
 <center><img src="chart 1.jpg" alt="Error display image" width="500" height="500></center>
+
+<p>Describe chart 1:
+In this chart we can see, the largest number of points is concentrated in the lower left quadrant, representing players with higher height and greater weight,it ranges from over 170cm - 190cm and from 70kg - under 90kg.
+Next, a moderate number of points are concentrated in the middle of the chart representing players with heights from over 190cm - under 200cm and weight from over 90kg - under 100kg.
+A small number of points concentrated in the upper right quadrant represent players over 200cm tall and weighing over 110kg.</p>
 </body>
 </html>
 
