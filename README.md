@@ -1,4 +1,3 @@
-# Minipresentation 
 <html>
 <body>
 <h1>Minipresentation Of Group 3</h1>
