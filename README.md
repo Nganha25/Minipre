@@ -12,7 +12,7 @@ First, we updated fiel data to jupyter and type code to have 5 different charts.
 <br>plt.ylabel("weight")
 <br>plt.xlabel("height")
 <br>plt.title("The dispersion in the correlation between weight and height of players ") 
-<br>plt.show(). 
+<br>plt.show(). <br>
 </body>
 </html>
 
