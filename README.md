@@ -98,6 +98,7 @@ The position with the highest percentage is defender with 40%.
 Forward accounts for 30% in the chart above
 Less percent is Midfield, Forward position with 20%
 And the lowest is Defender, Midfield</p>
+<h2>3. Summarize the presentation</h2>
 </body>
 </html>
 
