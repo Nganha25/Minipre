@@ -29,7 +29,7 @@ Chart 2:
 <br>legend_box = plt.legend(pie[0], categories, loc='upper right', bbox_to_anchor=(1.5, 0.5))
 <br>legend_box.set_title('Categories', prop={'weight': 'bold'})
 <br>plt.show() <br>
-<img src="chart 2.jpg" alt="Error display image" width="500" height="500">
+<img src="chart 2.jpg" alt="Error display image" width="800" height="500">
 <p>Describe chart 2:
   1 The pie chart consists of five slices, each representing a different football team. The size of each slice corresponds to the number of players on that team. By visually comparing the sizes of the slices, you can quickly discern the relative player counts for each team. 
 2.The South fremantle has the highest amount of qualified players while GWS, Box Hill, ireland share the lowest amount of player
