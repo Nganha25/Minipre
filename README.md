@@ -47,7 +47,7 @@ Chart 3:
 <br>plt.title('Weight and Height of First 20 Players (Height > 185cm, Weight > 80kg)')
 <br>plt.legend()
 <br>plt.show() <br>
-<img src="chart 3.jpg" alt="Error display image" width="500" height="500">
+<img src="chart 3.jpg" alt="Error display image" width="700" height="500">
 <p>Describe chart 3:
 The resulting chart will have blue bars representing height and red bars representing weight. 
 The x-axis will show the names of the players, and the y-axis will show the values of height and weight. 
@@ -71,7 +71,7 @@ Chart 4:
 <br>plt.title('Year of Birth of First 10 Players(between 20-25 years old)')
 <br>plt.legend()
 <br>plt.show() <br>
-<img src="chart 4.jpg" alt="Error display image" width="500" height="500">
+<img src="chart 4.jpg" alt="Error display image" width="700" height="500">
 <p>Describe chart 4:
 The resulting column chart displays the number of players for each year of birth from 1998 to 2003. 
 The x-axis represents the years of birth, and the y-axis represents the number of players. The chart will have a green color, a legend, and a title.
