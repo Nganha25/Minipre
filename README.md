@@ -12,7 +12,7 @@ Chart 1:
 <br>plt.xlabel("height")
 <br>plt.title("The dispersion in the correlation between weight and height of players ") 
 <br>plt.show(). <br>
-<img src="chart 1.jpg" alt="Error display image" width="300" height="300"/>
+<img src="chart 1.jpg" alt="Error display image" width="300" height="300">
 </body>
 </html>
 
