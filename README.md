@@ -13,7 +13,7 @@ This is data about the Australian FootBall League including information about pl
 <br>plt.xlabel("weight") 
 <br>plt.title("The dispersion in the correlation between weight and height of players ") 
 <br>plt.show(). <br>
-<img src="dowload(1).jpg" alt="Error display image" width="500" height="500">
+<img src="dowload(1).png" alt="Error display image" width="500" height="500">
 <p>Describe chart 1:
 In this chart we can see, the largest number of points is concentrated in the lower left quadrant, representing players with higher height and greater weight,it ranges from over 170cm - 190cm and from 70kg - under 90kg.
 Next, a moderate number of points are concentrated in the middle of the chart representing players with heights from over 190cm - under 200cm and weight from over 90kg - under 100kg.
